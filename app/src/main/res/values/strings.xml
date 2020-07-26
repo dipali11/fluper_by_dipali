@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fluper</string>
+    <string name="create_p">Create Product</string>
+    <string name="show_p">Show Product</string>
+    <string name="product">Product Details</string>
+    <string name="del_product">Delete Product</string>
+    <string name="Update_p">Update Product Name</string>
+</resources>

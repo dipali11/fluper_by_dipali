@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/ractangle_shap_bg"
+        android:paddingTop="12dp"
+        android:paddingBottom="28dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:tint="@color/black"
+            android:src="@drawable/cross"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="27dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:text="@string/Update_p"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <EditText
+            android:id="@+id/prod_name_et"
+            android:padding="12dp"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="27dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:hint="Enter Name here"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/update_tv"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
